@@ -1,0 +1,5 @@
+Docker-composes\my_wordpress\wordpress
+Docker-composes\my_wordpress\db
+
+Docker-composes/my_wordpress/wordpress
+Docker-composes/my_wordpress/db
