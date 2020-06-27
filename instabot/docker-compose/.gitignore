@@ -1,0 +1,11 @@
+# Ignore InstaPy directory
+docker-compose/InstaPy
+InstaPy
+
+# Ignore docker_quickstart.py
+docker-compose/docker_quickstart.py
+docker_quickstart.py
+
+# Geckodriver log file
+geckodriver.log
+docker-compose/geckodriver.log
