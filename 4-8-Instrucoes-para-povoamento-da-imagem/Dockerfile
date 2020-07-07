@@ -1,6 +1,6 @@
-FROM nginx:1.13
+FROM nginx:latest
 
-LABEL maintainer 'Juracy Filho <juracy at gmail.com>'
+LABEL maintainer 'Klysman Rezende <klysman.rk@gmail.com>'
 
 RUN echo '<h1>Sem conteúdo</h1>' > /usr/share/nginx/html/conteudo.html
 
