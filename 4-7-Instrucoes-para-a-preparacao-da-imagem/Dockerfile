@@ -1,5 +1,5 @@
 FROM debian
-LABEL maintainer 'José Malcher JR. <contato@josmealcher.net>'
+LABEL maintainer 'Klysman Rezende <klysman.rk@gmail.com>'
 
 ARG S3_BUCKET=files
 
