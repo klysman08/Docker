@@ -36,9 +36,7 @@ class Sender(Bottle):
         mensagem = request.forms.get('mensagem')
 
         self.register_message(assunto, mensagem)
-        return 'Mensagem enfileirada ! Assunto: {} Mensagem: {}'.format(
-            assunto, mensagem
-        )
+        return f'Mensagem enfileirada ! Assunto: {assunto} Mensagem: {mensagem}'
 
 if __name__ == '__main__':
     sender = Sender()
